@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Patricia Magumise — Data Analyst</title>
+<meta name="description" content="Patricia Magumise — Data Analyst & Applied Data Science graduate student. Python, SQL, Tableau, machine learning, and data governance." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">Patricia Magumise</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="Resume/Patricia_Magumise_Resume.pdf" class="btn btn-small" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Data Analyst · Applied Data Science</p>
+        <h1>Patricia Magumise</h1>
+        <p class="hero-sub">
+          Applied Data Science graduate student with a Library &amp; Information Science background.
+          I turn messy, real-world data into clean pipelines, models, and dashboards
+          with Python, Power BI, SQL, Tableau, and machine learning.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="Resume/Patricia_Magumise_Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Download Resume</a>
+          <a href="#contact" class="btn btn-text">Contact me →</a>
+        </div>
+        <ul class="hero-social" aria-label="Social links">
+          <li><a href="https://www.linkedin.com/in/patriciamagumise" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="https://github.com/patriciamagumise26-arch" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a></li>
+          <li><a href="https://public.tableau.com/app/profile/patricia.magumise1908/vizzes" target="_blank" rel="noopener" aria-label="Tableau Public">Tableau</a></li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <div class="hero-photo-frame">
+          <img src="images/piki.png" alt="Portrait of Patricia Magumise" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <h2 class="section-title"><span>01</span> About</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm an Applied Data Science graduate student who came into data through a Library &amp; Information
+          Science background which means I care as much about how data is organized, documented, and governed
+          as I do about the model at the end of the pipeline. Recent work spans predictive modeling (crime and box-office
+          revenue), interactive dashboards for real institutional data, and relational database design.
+          I'm comfortable across the full workflow: cleaning and wrangling data, exploratory analysis and statistical
+          testing, building and evaluating models, and communicating results through dashboards non-technical
+          stakeholders can actually use.
+        </p>
+        <dl class="about-facts">
+          <div><dt>Based in</dt><dd>Potsdam, New York</dd></div>
+          <div><dt>Focus</dt><dd>Data Analysis · ML · Data Governance</dd></div>
+          <div><dt>Tools</dt><dd>Python · SQL · Tableau · Power BI</dd></div>
+          <div><dt>Background</dt><dd>Library &amp; Information Science</dd></div>
+	 <div><dt>Background</dt><dd>Applied Data Science</dd></div>
+
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="wrap">
+      <h2 class="section-title"><span>02</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <p>Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn), SQL, basic R</p>
+        </div>
+        <div class="skill-card">
+          <h3>Data Analysis &amp; ML</h3>
+          <p>Data cleaning &amp; wrangling, EDA, hypothesis &amp; A/B testing, feature engineering, classification &amp; regression modeling</p>
+        </div>
+        <div class="skill-card">
+          <h3>Visualization &amp; BI</h3>
+          <p>Tableau, Power BI, Python Shiny dashboards, calculated fields, filters, parameters</p>
+        </div>
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <p>Relational design, ER modeling, normalization, SQL queries, triggers, data warehousing principles</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="wrap">
+      <h2 class="section-title"><span>03</span> Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card featured">
+          <div class="project-tag">Machine Learning</div>
+          <h3>LA Crime Type Prediction</h3>
+          <p>Built an ML pipeline on 733,886 LAPD crime records (2020–2024) to classify violent vs. non-violent
+             crime. Ran EDA, feature engineering, and statistical testing (Shapiro-Wilk, Chi-Squared, Cramér's V),
+             then trained and compared five classification models, and Gradient Boosting performed best
+             (71.5% accuracy, 0.785 AUC). Built ROC curves, confusion matrices, and choropleth maps for interpretation.</p>
+          <ul class="tag-list">
+            <li>Python</li><li>Scikit-learn</li><li>EDA</li><li>Classification</li>
+          </ul>
+          <a href="https://github.com/patriciamagumise26-arch/Los-Angeles-Crime-prediction-" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-tag">Machine Learning</div>
+          <h3>Movie Revenue Prediction</h3>
+          <p>Regression project predicting box-office revenue from pre-release and production metadata
+             budget, audience engagement signals, popularity, and production attributes using the TMDB
+             movie dataset.</p>
+          <ul class="tag-list">
+            <li>Python</li><li>Regression</li><li>TMDB Dataset</li>
+          </ul>
+          <a href="https://github.com/patriciamagumise26-arch/Predicting-Movie-Revenue-Using-Budget-Audience-Engagement-Popularity-and-Production-Features" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Databases</div>
+          <h3>Relational Database Design</h3>
+          <p>End-to-end database design for a fictional engineering company: ER diagram, normalized relational
+             schema, primary/foreign keys, constraints, triggers for business rules, and join/aggregate queries
+             for reporting plus views to restrict access to sensitive employee data.</p>
+          <ul class="tag-list">
+            <li>SQL</li><li>ERD</li><li>Normalization</li><li>Triggers</li>
+          </ul>
+          <a href="https://github.com/patriciamagumise26-arch/Database-Design" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Interactive App</div>
+          <h3>Rental Analytics (Shiny App)</h3>
+          <p>Interactive Python Shiny application analyzing U.S. apartment listing data by state, city, and time,
+             with dynamic filters and visualizations for exploring housing price trends in real time.</p>
+          <ul class="tag-list">
+            <li>Python</li><li>Shiny</li><li>Data Viz</li>
+          </ul>
+          <a href="https://github.com/patriciamagumise26-arch/Rental-Analytics-using-Shiny-Apps" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Dashboards</div>
+          <h3>Tableau Dashboards</h3>
+          <p>A collection of interactive Tableau dashboards built on real-world datasets, calculated fields,
+             filters and parameters, and visual encodings chosen to make patterns easy to explore and compare.</p>
+          <ul class="tag-list">
+            <li>Tableau</li><li>Data Viz</li><li>Data Cleaning</li>
+          </ul>
+          <a href="https://public.tableau.com/app/profile/patricia.magumise1908/vizzes" class="project-link" target="_blank" rel="noopener">View on Tableau Public →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Utility</div>
+          <h3>Unit of Measurement Converter</h3>
+          <p>Interactive text-based tool that converts between inches, feet, and yards, continuously prompting
+             for input and displaying results until the user exits.</p>
+          <ul class="tag-list">
+            <li>Python</li>
+          </ul>
+          <a href="https://github.com/patriciamagumise26-arch/Unit-of-Measurement-Converter" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Utility</div>
+          <h3>Calculator Project</h3>
+          <p>A small calculator built in a Jupyter Notebook foundational practice with functions, control
+             flow, and user input handling.</p>
+          <ul class="tag-list">
+            <li>Python</li>
+          </ul>
+          <a href="https://github.com/patriciamagumise26-arch/Calculator-Project" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="wrap">
+      <h2 class="section-title"><span>05</span> Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-date">Sep 2025 – Present</div>
+          <div class="timeline-body">
+            <h3>Graduate Research Librarian</h3>
+            <p class="timeline-org">Clarkson University · Part-time · New York, United States · On-site</p>
+            <ul>
+              <li>Administer institutional databases of 100,000+ records, applying data validation and quality-control checks to ensure accuracy and confidentiality.</li>
+              <li>Digitize and restructure legacy paper records into a searchable relational database, improving data completeness and retrieval efficiency for library and administrative staff.</li>
+              <li>Perform exploratory data analysis and build interactive Tableau dashboards to visualize circulation and usage trends, delivering data-driven insights for library administration decision-making.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Jan 2026 – Aug 2026</div>
+          <div class="timeline-body">
+            <h3>Graduate Assistant for Probability and Statistics</h3>
+            <p class="timeline-org">Clarkson University · Potsdam, NY</p>
+            <ul>
+              <li>Maintain a structured dataset of scheduling and mentorship-session records, ensuring timely, accurate follow-up for undergraduate and graduate students.</li>
+              <li>Evaluate and track student performance data across assignments, maintaining a structured gradebook dataset of grades and outcomes.</li>
+              <li>Partner with faculty in a Probability &amp; Statistics course to align academic support with department goals, reinforcing applied statistical concepts through direct instructional support.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">May 2023 – Aug 2025</div>
+          <div class="timeline-body">
+            <h3>Head Librarian</h3>
+            <p class="timeline-org">Wise Owl Group of Schools · Full-time · Harare, Zimbabwe · On-site</p>
+            <ul>
+              <li>Implemented and administered the Koha Library Management System, migrating 1,000+ student and staff records into a centralized database and establishing new data governance standards for accuracy and confidentiality.</li>
+              <li>Analyzed and visualized library usage and inventory data to identify trends, informing budget, resource allocation, and technology investment decisions for school leadership.</li>
+              <li>Designed and enforced a data retention and secure-archiving policy, systematically purging outdated records to reduce data-security risk and maintain regulatory compliance.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Nov 2022 – Mar 2023</div>
+          <div class="timeline-body">
+            <h3>Executive Assistant</h3>
+            <p class="timeline-org">Yellow Snake Mine · Contract · Kwekwe, Midlands Province, Zimbabwe · On-site</p>
+            <ul>
+              <li>Maintained operational databases and structured records for executive reporting, ensuring data accuracy to support leadership decision-making.</li>
+              <li>Coordinated scheduling and managed confidential correspondence and filing for senior leadership, applying data organization and discretion standards.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Jul 2020 – Aug 2022</div>
+          <div class="timeline-body">
+            <h3>Librarian</h3>
+            <p class="timeline-org">Marondera High School · Full-time · Zimbabwe</p>
+            <ul>
+              <li>Managed and maintained circulation, cataloging, and inventory records for the school's library collection, ensuring accuracy and consistency across all record types.</li>
+              <li>Queried catalog and circulation records to locate materials, verify holdings, and support accurate reporting during inventory audits.</li>
+              <li>Conducted regular records audits, cross-referencing physical inventory against catalog records to identify discrepancies, loss, and damage, and reconciling records accordingly.</li>
+              <li>Analyzed circulation and usage records to identify borrowing trends, informing collection development and resource allocation decisions.</li>
+              <li>Maintained student and staff library records in compliance with school recordkeeping policy, ensuring records remained accurate, current, and readily retrievable.</li>
+              <li>Trained students in information literacy and research skills, teaching them to navigate and query structured records systems for academic research.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Dec 2018 – Mar 2020</div>
+          <div class="timeline-body">
+            <h3>Information Officer</h3>
+            <p class="timeline-org">Arathorn Engineering Services · Full-time · Zimbabwe</p>
+            <ul>
+              <li>Captured and maintained structured employee, client, and receipt data, ensuring consistency and accuracy across records.</li>
+              <li>Queried employee and client records to respond to internal information requests and support reporting needs.</li>
+              <li>Designed and introduced an electronic records-keeping system, migrating paper-based records into a secure digital database.</li>
+              <li>Audited records periodically to identify and correct data-entry errors, improving overall data quality.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Jan 2018 – Oct 2018</div>
+          <div class="timeline-body">
+            <h3>Customer Service Representative</h3>
+            <p class="timeline-org">Econet Group · Part-time · Harare, Zimbabwe · Remote</p>
+            <ul>
+              <li>Provided information services to Kwese customers.</li>
+              <li>Reminded customers that they were due to pay their accounts.</li>
+              <li>Provided feedback to customer queries.</li>
+              <li>Maintained the right professional attitude towards customers.</li>
+              <li>Made a target goal of calling at least 100 customers per day.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Aug 2017 – Aug 2018</div>
+          <div class="timeline-body">
+            <h3>Information Scientist</h3>
+            <p class="timeline-org">Tax Management Services · Internship · Harare, Zimbabwe</p>
+            <ul>
+              <li>Provided information and research support to internal teams, responding to client and staff queries related to tax records and account information.</li>
+              <li>Organized and maintained client tax records and documentation, ensuring accuracy and confidentiality of sensitive financial information.</li>
+              <li>Supported data entry and recordkeeping for client accounts, contributing to accurate and timely tax filing processes.</li>
+              <li>Delivered information services to clients, resolving questions and requests related to their records and account status.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="leadership-note">
+        <strong>Leadership:</strong> Head of Department, Wise Owl Group of Schools — led cross-departmental initiatives and information-sharing workflows.
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="wrap contact-wrap">
+      <h2 class="section-title"><span>06</span> Contact</h2>
+     
+      <div class="contact-grid">
+        <div>
+          <h3>Email</h3>
+          <p><a href="mailto:patriciamagumise26@gmail.com">patriciamagumise26@gmail.com</a></p>
+        </div>
+        <div>
+          <h3>Phone</h3>
+          <p><a href="tel:+13152449293">(315) 244-9293</a></p>
+        </div>
+        <div>
+          <h3>Location</h3>
+          <p>Potsdam, New York</p>
+        </div>
+        <div>
+          <h3>Elsewhere</h3>
+          <p>
+            <a href="https://www.linkedin.com/in/patriciamagumise" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://github.com/patriciamagumise26-arch" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://public.tableau.com/app/profile/patricia.magumise1908/vizzes" target="_blank" rel="noopener">Tableau</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> Patricia Magumise</p>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
